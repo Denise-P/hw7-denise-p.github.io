@@ -43,20 +43,20 @@ body {
 .column-wide {
   width: 70%;
   float: left;
-  min-height: 225px;
 }
 /* kept width & height because it kept halfing my image and I don't know why*/
-.profile img {
-  width: 300px;
-  height: auto;
+.profile-img {
+  padding: 20px;
   border-radius: 50%;
-  padding-top: 20px;
 }
 
 .content-wrap {
   max-width: 1020px;
   margin: 0 auto;
   overflow: hidden;
+}
+.name {
+  padding-left: 30px;
 }
 .name h1 {
   font-size: 100px;
@@ -82,6 +82,10 @@ body {
   font-size: 70px;
   font-weight: 600;
   font-style: oblique;
+}
+
+.portfolio {
+  float: right;
 }
 
 /* Work Experience
